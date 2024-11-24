@@ -34,7 +34,7 @@ handler_dict = {}
 default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'DEFAULT_UPLOAD': 'gd',
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
-                  'LEECH_SPLIT_SIZE': MAX_SPLIT_SIZE,
+                  'LEECH_SPLIT_SIZE': 3900000000,
                   'RSS_DELAY': 600,
                   'STATUS_UPDATE_INTERVAL': 10,
                   'SEARCH_LIMIT': 0,
