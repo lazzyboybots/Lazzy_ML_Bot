@@ -55,7 +55,7 @@
     - Thumbnail for each user
     - Leech prefix, suffic, remname (remove specific words via Regex) for each user.
     - Set upload as document or as media for each user
-    - 2GB+ file upload with premium account and lower size with bot
+    - 4GB+ file upload with premium account and lower size with bot
     - Upload all files to specific superGroup/channel.
     - Leech Split size and equal split size settings for each user
     - Ability to leech splitted file parts in media group. Setting for each user
@@ -503,7 +503,7 @@ help - All cmds with description
     <li><details>
         <summary><b>Telegram Leech & Mirror</b></summary>
 
-    - `LEECH_SPLIT_SIZE`: Size of split in bytes. Default is `2GB`. Default is `4GB` if your account is premium. `Int`
+    - `LEECH_SPLIT_SIZE`: Size of split in bytes. Default is `4GB`. Default is `4GB` if your account is premium. `Int`
     - `AS_DOCUMENT`: Default type of Telegram file upload. Default is `False` mean as media. `Bool`
     - `EQUAL_SPLITS`: Split files larger than **LEECH_SPLIT_SIZE** into equal parts size (Not working with zip cmd). Default is `False`. `Bool`
     - `MEDIA_GROUP`: View Uploaded splitted file parts in media group. Default is `False`. `Bool`.
