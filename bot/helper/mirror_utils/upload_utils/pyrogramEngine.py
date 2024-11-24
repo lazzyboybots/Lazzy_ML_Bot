@@ -253,7 +253,7 @@ class TgUploader:
         return rlist
 
     async def __switching_client(self):
-        LOGGER.info(f'Uploading Media {">" if self.__prm_media else "<"} 2GB by {"User" if self.__prm_media else "Bot"} Client')
+        LOGGER.info(f'Uploading Media {">" if self.__prm_media else "<"} 4GB by {"User" if self.__prm_media else "Bot"} Client')
         self.__client = user if (self.__prm_media and IS_PREMIUM_USER) else bot
 
     async def __send_media_group(self, subkey, key, msgs):
